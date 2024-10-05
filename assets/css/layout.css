@@ -10,10 +10,10 @@
 
 .nav-bar {
     width: 20%;
-    display: flex;
+    /* display: flex; */
 
     text-align: center;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     overflow: hidden;
 }
 

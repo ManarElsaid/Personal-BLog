@@ -1,5 +1,7 @@
 /* mobile first design */
 .post-container {
+    width: 98%;
+    margin: 1%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: minmax(100px, auto) auto 1fr minmax(100px, auto);
@@ -60,6 +62,10 @@
     padding: 10px;
     text-decoration: none;
     line-height: 160%;
+}
+
+.social-icons {
+    font-size: 32px;
 }
 
 
