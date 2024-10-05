@@ -1,0 +1,145 @@
+/* mobile first design */
+.post-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(100px, auto) auto 1fr minmax(100px, auto);
+    grid-gap: 15px;
+}
+
+
+/* About section */
+#about {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 575px;
+
+}
+
+#about>h2 {
+    margin-bottom: 10px;
+}
+
+.avatar img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #16a085;
+    margin-bottom: 10px;
+}
+
+.archive a {
+    color: #3498db;
+}
+
+#about p {
+    margin-bottom: 25px;
+}
+
+.post {
+    /* grid-area: main; */
+    margin: 20px;
+}
+
+.post h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.post-img img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    max-width: 600px;
+    height: auto;
+}
+
+.post p {
+    padding: 10px;
+    text-decoration: none;
+    line-height: 160%;
+}
+
+
+/* media queries  */
+@media (max-width: 320px) {
+    .post-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(100px, auto) auto 1fr minmax(100px, auto);
+    }
+
+    .avatar img {
+        width: 120px;
+        height: 120px;
+    }
+
+}
+
+/* meduim screens */
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .post-container {
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: minmax(100px, auto) 1fr minmax(100px, auto);
+        grid-template-areas:
+            "hd hd"
+            "nav main"
+            "ft ft";
+    }
+
+    .post-header {
+        grid-area: hd;
+    }
+
+    #about {
+        grid-area: nav;
+    }
+
+    .post {
+        grid-area: main;
+    }
+
+    .post-footer {
+        grid-area: ft;
+    }
+
+
+    p {
+        font-size: 14px;
+    }
+}
+
+/* large-screens */
+@media (min-width: 901px) {
+    .post-container {
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: minmax(100px, auto) 1fr minmax(100px, auto);
+        grid-template-areas:
+            "hd hd"
+            "nav main"
+            "ft ft";
+    }
+
+    .post-header {
+        grid-area: hd;
+    }
+
+    #about {
+        grid-area: nav;
+    }
+
+    .post {
+        grid-area: main;
+    }
+
+    .post-footer {
+        grid-area: ft;
+    }
+
+
+    p {
+        font-size: 16px;
+    }
+}

@@ -37,22 +37,37 @@ h3 {
 p {
     font-weight: bold;
     font-style: italic;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: #7f8c8d;
+
 }
-header {
+
+blockquote {
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 1.4rem;
+    font-family: Georgia, serif;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
     background-color: #f5f5f5;
-
 }
 
-a {
+
+
+.nav-bar a {
     text-decoration: none;
     color: #16a085;
     font-family: "Arial", sans-serif;
     font-weight: bold;
 }
 
-a:hover {
+.nav-bar a:hover {
     cursor: pointer;
     text-decoration: underline;
 }
@@ -72,20 +87,6 @@ a:hover {
     font-size: 1rem;
 }
 
-.card {
-    background-color: #f5f5f5;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    text-align: center;
-}
-
-.card img {
-    width: 100%;
-    border-radius: 10px;
-    object-fit: cover;
-}
 
 /* for mobile */
 @media (max-width: 320px) {
@@ -106,42 +107,3 @@ a:hover {
         font-size: 12px;
     }
 }
-
-/* medium screens */
-/* @media (min-width:600px) and (max-width:900) {
-    h1 {
-        font-size: 32px;
-    }
-
-    h2 {
-        font-size: 28px;
-    }
-
-    h3 {
-        font-size: 24px;
-    }
-
-    p {
-        font-size: 14px;
-    }
-
-} */
-
-/* large screens */
-/* @media (min-width: 901px) {
-    h1 {
-        font-size: 48px;
-    }
-
-    h2 {
-        font-size: 36px;
-    }
-
-    h3 {
-        font-size: 30px;
-    }
-
-    p {
-        font-size: 16px;
-    }
-} */
