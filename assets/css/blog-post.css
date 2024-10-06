@@ -65,6 +65,11 @@
     height: auto;
 }
 
+.figcaption {
+    width: 100%;
+    text-align: center;
+}
+
 .post p {
     padding: 10px;
     text-decoration: none;
