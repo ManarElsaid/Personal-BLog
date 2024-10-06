@@ -3,18 +3,7 @@
     margin: 1%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: minmax(100px, auto) 1fr minmax(100px, auto);
-}
-
-
-
-.nav-bar {
-    width: 20%;
-    /* display: flex; */
-
-    text-align: center;
-    /* justify-content: space-evenly; */
-    overflow: hidden;
+    grid-template-rows: minmax(80px, auto) 1fr minmax(60px, auto);
 }
 
 .content {

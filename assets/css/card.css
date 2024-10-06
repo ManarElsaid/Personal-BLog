@@ -12,3 +12,25 @@
     border-radius: 10px;
     object-fit: cover;
 }
+
+
+
+.readmore {
+    text-decoration: none;
+}
+
+
+.post-btn {
+    margin: 15px 0;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.post-btn:hover {
+    cursor: pointer;
+}
