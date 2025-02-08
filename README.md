@@ -31,4 +31,20 @@ To run the project locally:
 
 1. Clone the repository:
    ```bash
+
+2. Navigate to the project folder:
+   
+cd Personal-Blog
+
+3. Open index.html in your browser.
    git clone https://github.com/ManarElsaid/Personal-Blog.git
+
+
+
+## 📌 Project Status
+- 🔹 **Completed:** The project is finished with all planned features implemented.
+- 🔹 **Future Enhancements:**  
+   - Adding JavaScript functionality for dynamic blog post loading.  
+   - Improving SEO for better search engine visibility.  
+   - Potentially adding comment sections or user login features.
+
