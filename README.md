@@ -22,7 +22,7 @@ This project is a fully responsive **Personal Blog Website** designed to provide
 ---
 
 ## 🚀 Live Demo
-🔗 **[View Live Project](https://manarelsaid.github.io/Personal-Blog/)**
+🔗 **[View Live Project](https://manarelsaid.github.io/Personal-BLog/#)**
 
 ---
 
