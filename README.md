@@ -1,8 +1,6 @@
 # Personal Blog Website
 🚀 *A responsive and well-structured blog website developed as part of the Udacity Front-End Web Developer Nanodegree Program.*
 
-![Project Screenshot](https://your-image-link.com) *(Replace with actual screenshot URL)*
-
 ---
 
 ## 📌 Overview
